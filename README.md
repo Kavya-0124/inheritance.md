@@ -1,2 +1,9 @@
 # inheritance
-kavya
+<details>
+  <summary>Answer</summary>
+  ```
+  kavya srivastava
+  
+  ```
+  </details>
+  
