@@ -32,6 +32,15 @@
  }
  };
  
+ void main()
+ {
+ rectangle r;
+ r.length=10;
+ r.breadth=20;
+ r.show();
+ };
+ 
+ 
  ```
  </details>
 
