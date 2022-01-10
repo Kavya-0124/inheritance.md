@@ -10,7 +10,7 @@
 ### Why Inheritance?
 <details>
  <summary>Answer</summary>
- 1.Waste of Time</t>
+ <br>1.Waste of Time</br>
  <t>2.Resourse</t>
  3.Not Feasible
 </details>
