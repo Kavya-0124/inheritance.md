@@ -97,7 +97,42 @@
   }
   
   ```
+  
+  ```
+  
+  #include<iostream>
+  using namespace std;
+  
+  class base
+  {
+  public:
+  base()
+  {
+  cout<<"Default of Base Class";
+  }
+  base(int b){
+  cout<<"Parametrized of Base Class";<<b
+  }
+  };
+  
+  class derived:public base{
+  public:
+  derived()
+  {
+  cout<<"Default of Derived Class";
+  }
+  derived(int d)
+  cout<<"Parametrized of Derived Class"<<d;
+  };
+   void main(){
+  derived d1;
+  derived d2(9);
+  }
+  
+  ```
   </details>
+  
+  
   
   
   
