@@ -15,12 +15,12 @@
  <br>3.Better Organization of Code</br>
 </details>
 
-### Innheriance Example
+### Code in C++
 <details>
  <summary>Code</summary>
+ 
+ 
  ```
- 
- 
  #include<iostream>
  using namespace std;
  class rectangle
