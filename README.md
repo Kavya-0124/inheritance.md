@@ -170,6 +170,106 @@
   ```
   </details>
   
+  #Overriding Member Function
+  <details>
+   <summary>Answer</summary>
+   
+   NOTE: Redefining functionality of BASE class into DERIVED class, then if we create OBJECT of   
+   DERIVED class. 
+   
+   ```
+   #include<iostream>
+   using namespace std;
+   
+   class base
+   {
+   public:
+   void Msg()
+   {
+   cout<<"Base Class";
+   }
+   };
+   
+   class derived:public base
+   {
+   public:
+   void Msg()
+   {
+   cout<<"Derived Class";
+   }
+   };
+   
+   void main()
+   {
+   base b;
+   b.Msg(): //Base class
+   
+   derived c;
+   c.Msg; //Derived class
+   }
+   
+   ```
+   
+   NOTE:DERIVED class object would call, function in derived class, if same function exists in both classes.
+   
+   ```
+   
+   #include<iostream>
+   using namespace std;
+   
+   class base
+   {
+   public:
+   void Msg()
+   {
+   cout<<"Base Class";
+   }
+   };
+   
+   class derived:public base
+   {
+   public:
+   void Msg()
+   {
+   cout<<"Derived class";
+   }
+   };
+   
+   void main()
+   {
+   derived c;
+   c.Msg():
+   }
+   
+   class base
+   {
+   public:
+   void Msg()
+   {
+   cout<<"Base Class";
+   }
+   };
+   
+   class derived:public base
+   {
+   public:
+   void Msg(){
+   cout<<"Derived Class";
+   base::Msg();//calling
+   }
+   };
+   
+   void main()
+   {
+   derived c;
+   c.Msg();
+   }
+   
+   ```
+   
+   </details>
+   
+  
   
   
   
