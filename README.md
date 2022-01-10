@@ -19,6 +19,8 @@
 <details>
  <summary>Code</summary>
  ```
+ #include<iostream>
+ using namespace std;
  class rectangle
  {
  public:
