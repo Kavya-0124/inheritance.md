@@ -1,6 +1,7 @@
 # Inheritance
-<details>
-  ### What is inheritance?
+ ### What is inheritance?
+ <details>
+ 
   <summary>Answer</summary>
   Inheritance is a mechanism in which one class acquires the property of another class.
   
