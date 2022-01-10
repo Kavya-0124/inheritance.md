@@ -99,7 +99,9 @@
   ```
   NOTE:
   1st Default Constructor of Base class, then Default Constructor of derived class is called.
+  <br>
   2nd Parametrized Constructor of base class is not called when Para. Constructor is present in derived class.
+  </br>
   
   ```
   
