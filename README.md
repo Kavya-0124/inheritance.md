@@ -10,9 +10,9 @@
 ### Why Inheritance?
 <details>
  <summary>Answer</summary>
- 1.Waste of Time\t
- 2.Resourse\t
- 3.Not Feasible\t
+ <t>1.Waste of Time</t>
+ 2.Resourse
+ 3.Not Feasible
 </details>
 
   
