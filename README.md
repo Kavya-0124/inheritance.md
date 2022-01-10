@@ -270,10 +270,44 @@
    
    </details>
    
-   ###isA Relationship
+   ### isA Relationship
    
    <details>
     <summary>Answer</summary>
+    isA relation = inheritance
+    
+    ```
+    
+    class Suzuki
+    {
+    public:
+    void chechis()
+    {.................}
+    void engine()
+    {.................}
+    void suspension()
+    {.................}
+    void transmission()
+    {.................}
+    void doors()
+    {.................}
+    
+    };
+    
+    class dodo:public Suzuki
+    {
+    void chechis()
+    {.....modify.....}
+    void doors()
+    {......modify....}
+    void ABC()
+    {................}
+    };
+    
+    ```
+    
+   </details>
+   
     
     
     
