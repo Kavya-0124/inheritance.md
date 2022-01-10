@@ -11,7 +11,7 @@
 <details>
  <summary>Answer</summary>
  <t>1.Waste of Time</t>
- 2.Resourse
+ <t>2.Resourse<\t>
  3.Not Feasible
 </details>
 
