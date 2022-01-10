@@ -15,7 +15,7 @@
  <br>3.Better Organization of Code</br>
 </details>
 
-### Code in C++
+### Inheritance Example
 <details>
  <summary>Code</summary>
  
@@ -44,6 +44,24 @@
  r.show();
  };
  
+ class cuboid:public rectangle
+ {
+ public:
+ int height;
+ void display()
+ {
+ cout<<height;
+ }
+ };
+ 
+ void main(){
+ cuboid c;
+ c.length=10;
+ c.breadth=20;
+ c.height=30;
+ c.show();
+ c.display();
+ }
  
  ```
  </details>
