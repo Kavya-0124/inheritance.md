@@ -97,6 +97,7 @@
   }
   
   ```
+  1st Default Constructor of Base class, then Default Constructor of derived class is called.
   
   ```
   
