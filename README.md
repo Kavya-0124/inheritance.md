@@ -277,6 +277,8 @@
     isA relation = inheritance
     
     ```
+    #include<iostream>
+    using namespacestd;
     
     class Suzuki
     {
