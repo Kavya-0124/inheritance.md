@@ -65,6 +65,43 @@
  
  ```
  </details>
+ 
+ ### Constructors and Inheritance
+ <details>
+  If we don't speify a constructor, then derived class will use appropriate constructor from baseclass.(Applicable only to Default Constructor)
+  <summary>Code</summary>
+  
+  
+  ```
+  #include<iostream>
+  using namespace std;
+  
+  class base
+  {
+  public:
+  base()
+  {
+  cout<<"Default of Base Class";
+  }
+  base(int b){
+  cout<<"Parametrized of Base Class";<<b
+  }
+  };
+  
+  class derived:public base{
+  //Empty
+  };
+   void main(){
+  derived d1;
+  derived d2(9);
+  }
+  
+  ```
+  </details>
+  
+  
+  
+  
 
 
   
