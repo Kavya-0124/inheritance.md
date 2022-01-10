@@ -10,9 +10,30 @@
 ### Why Inheritance?
 <details>
  <summary>Answer</summary>
- <br>1.Waste of Time</br>
- <t>2.Resourse</t>
- 3.Not Feasible
+ <br>1.Reduce Duplicate Code</br>
+ <br>2.Code Reuse</br>
+ <br>3.Better Organization of Code</br>
 </details>
+
+### Innheriance Example
+<details>
+ <summary>Code</summary>
+ ```
+ class rectangle
+ {
+ public:
+ int length;
+ int breadth;
+ 
+ void show()
+ {
+ cout<<length;
+ cout<<breadth;
+ }
+ };
+ 
+ ```
+ </details>
+
 
   
