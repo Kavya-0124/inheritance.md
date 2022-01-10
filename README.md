@@ -15,8 +15,7 @@
  <br>3.Better Organization of Code</br>
 </details>
 
-### Inheritance Example
-# WAP in which cuboid class inherit rectangle class and calculate area and volume.
+### WAP in which cuboid class inherit rectangle class and calculate area and volume.
 <details>
  <summary>Code</summary>
  
