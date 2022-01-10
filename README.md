@@ -277,6 +277,7 @@
     isA relation = inheritance
     
     ```
+    
     #include<iostream>
     using namespacestd;
     
@@ -306,9 +307,11 @@
     {................}
     };
     
+    
     ```
     
    </details>
+    
    
     
     
