@@ -276,6 +276,7 @@
     <summary>Answer</summary>
     isA relation = inheritance
     
+    
     ```
     
     #include<iostream>
@@ -311,6 +312,71 @@
     ```
     
    </details>
+    
+    ### hasA Relationship
+    
+    <details>
+     <summary>Answer></summary>
+     hasA relation = object
+     
+     
+     ```
+     
+    #include<iostream>
+    using namespace std;
+    
+    class Suzuki
+    {
+    public:
+    void chechis()
+    {.................}
+    void suspension()
+    {.................}
+    void transmission()
+    {.................}
+    void doors()
+    {.................}
+    
+    };
+    
+    class Antoinette
+    {
+     public:
+    void V8_Engine()
+    {
+     ..............}
+    };
+     
+     class DODO
+     {
+     private:
+     Suzuki design_obj;
+     Antoinette anto_obj;
+     
+     public:
+     void addChechis()
+     {
+     design_obj.chechis();
+     }
+     void addEngine()
+     {
+     anto_obj.V8_Engine;
+     }
+     
+     };
+     
+     
+     ```
+     
+     </details>
+     
+     ### Difference between isA and hasA relation
+     
+     <table>
+      tiojh
+     </table>
+     
+    </details>
     
    
     
