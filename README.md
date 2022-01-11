@@ -372,6 +372,8 @@
      
      ### Difference between isA and hasA relation
      
+     <details>
+      <summary>answer</summary>
      <table>
       tiojh
      </table>
