@@ -313,10 +313,10 @@
     
    </details>
     
-    ### hasA Relationship
     
+    ### hasA Relationship
     <details>
-     <summary>Answer></summary>
+     <summary>Answer</summary>
      hasA relation = object
      
      
